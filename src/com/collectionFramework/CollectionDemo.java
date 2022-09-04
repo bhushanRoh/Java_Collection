@@ -1,4 +1,4 @@
-package com.bhus;
+package com.collectionFramework;
 
 import java.util.ArrayList;
 import java.util.Collection;
