@@ -29,5 +29,21 @@ public class QueueIterationDemo {
             System.out.println(name);
         }
 
+        //Iterating Using iterator() and Java 8 forEachRemaining()
+        System.out.println("Iterating Using iterator() and Java 8 forEachRemaining()");
+
+        elementIterator=elements.iterator();
+        elementIterator.forEachRemaining(element ->{
+            System.out.println(element);
+        });
+
+        // Iterating using simple for each
+        System.out.println("Iterating using simple for each");
+
+        for(String name: elements){
+            System.out.println(name);
+        }
+
+
     }
 }
